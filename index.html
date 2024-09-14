@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Zerodha Clone</title>
+    </head>
+    <body>
+        <div style = "display: flex; justify-content: space-between; padding-left: 100px; padding-right: 100px; box-shadow: 2px 1px 2px #eee;">
+            <!-- <a href="/"> this is incase if u wanna do the clickable logo to redirect to home page feature-->
+                <img width = "120" height = "20px" style = "padding-top: 20px" src = "logo.svg"/> <!-- Self closing tag-->
+            <!-- So the div above has 2 children, the image and the div containing signup, about etc. div above has some flex styles, div below has some flex styles, flex styles are only for immediate children-->
+            <div style = "display: flex;">
+                <div style = "padding: 20px; color: #666; cursor: pointer;"> <!--cursor pointer makes it so that if you hover above it, the cursor changes to pointer-->
+                    SignUp
+                </div>
+                <div style = "padding: 20px; color: #666; cursor: pointer;">
+                    About
+                </div>
+                <div style = "padding: 20px; color: #666; cursor: pointer;">
+                    Product
+                </div>
+                <div style = "padding: 20px; color: #666; cursor: pointer;">
+                    Pricing
+                </div>
+                <div style = "padding: 20px; color: #666; cursor: pointer;">
+                    Support
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center; padding-top: 40px;"> <!-- We want this image to be at the centre-->
+            <img width = "800" src = "landing.png"/> 
+        </div>
+        <div style="display: flex; justify-content: center; padding-top: 20px;">
+            <h1 style="font-weight: 600; font-size: 45; font-family: 'Trebuchet MS', sans-serif; color: rgb(78, 78, 78);">Invest in everything</h1> <!-- font weight to modify how dark or bright the font is-->
+        </div>
+        <div style="display: flex; justify-content: center; padding-top: 1px;">
+            <h2 style="font-weight: 600; font-size: 25; font-family: 'Trebuchet MS', sans-serif; color: rgb(78, 78, 78);">Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</h2>
+        </div>
+        <a href="https://www.google.com/" style="text-decoration: none;"> <!-- to make the entire div clickable and to remove the reddish line that appears we use text-declaration none-->
+        <div style="display: flex; justify-content: center;">
+            <!-- buttons themselves are harder to style so most fancy buttons are just divs under the hood-->
+            <div style = "background-color: #387ed1; padding: 10px 30px; color: white; border-radius: 3px; font-size: 20px; cursor: pointer;">Sign Up Now</div> <!--Short way to write padding: 10 px is for top and bottom together, 30 is for left and right together-->
+        </div>
+        </a>
+    </body>
+</html>
